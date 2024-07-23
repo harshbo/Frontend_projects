@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Code Editor</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex flex-col items-center p-4">
+    <div class="container mx-auto flex flex-col md:flex-row justify-around">
+        <div class="editor-container w-full md:w-1/3 p-2">
+            <h2 class="text-center text-lg font-semibold">HTML</h2>
+            <textarea id="html-editor" class="w-full h-64 p-2 border rounded-md"></textarea>
+        </div>
+        <div class="editor-container w-full md:w-1/3 p-2">
+            <h2 class="text-center text-lg font-semibold">CSS</h2>
+            <textarea id="css-editor" class="w-full h-64 p-2 border rounded-md"></textarea>
+        </div>
+        <div class="editor-container w-full md:w-1/3 p-2">
+            <h2 class="text-center text-lg font-semibold">JavaScript</h2>
+            <textarea id="js-editor" class="w-full h-64 p-2 border rounded-md"></textarea>
+        </div>
+    </div>
+    <div class="preview-container w-full md:w-2/3 my-4 p-2">
+        <h2 class="text-center text-lg font-semibold">Live Preview</h2>
+        <iframe id="preview" class="w-full h-96 border rounded-md"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
