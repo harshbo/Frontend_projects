@@ -14,3 +14,6 @@
   - Play/pause functionality.
   - Mute/unmute functionality.
   - Responsive design with Tailwind CSS.
+# Harshini Borigi - Portfolio
+  Welcome to my portfolio! I am Harshini Borigi, a B.Tech student specializing in software development with a strong background in various programming languages and technologies. This portfolio showcases my skills, 
+  work experience, projects, and more.
